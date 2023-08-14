@@ -15,4 +15,4 @@ I used a temp table for this and used UNION ALL to get all the possible combinat
 2. I am interested in seeing which film has the most likes in each film genre. A well-liked movie in a genre is a film which has a like count in the top 3 unique like counts for that genre. Find the well-liked movies in each of the departments.
 I used a temp table for this to create the view with the ranking of the number of likes. The view is then completed by doing the necessary joins based on my ERD diagram. Thereafter, the second SELECT query is used to query the temp table with the necessary filters. In this case, that is the WHERE Like_Rank < 4.
 
-You can learn more about this passion project of mine at https://www.notion.so/aloysiusong/Star-Schemas-ERDs-Letterboxd-0a5ef6c1a72845129fa6c211315224ac?pvs=4
+You can learn more about this passion project of mine on my [Notion](https://www.notion.so/aloysiusong/Star-Schemas-ERDs-Letterboxd-0a5ef6c1a72845129fa6c211315224ac?pvs=4).
